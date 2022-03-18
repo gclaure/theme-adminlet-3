@@ -6,3 +6,8 @@
 * composer install
 * php artisan migrate:fresh --seed
 * php artisan serve --port 8000 --host {ip}
+## Change Language espanish
+* config/app.php
+* 'locale' => 'es',  //en
+* 'timezone' => 'America/La_Paz', //UTC
+
