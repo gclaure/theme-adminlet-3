@@ -5,6 +5,7 @@
 ## Installing command and run
 * composer install
 * php artisan migrate:fresh --seed
+* php artisan adminlte:install --only=main_views
 * php artisan serve --port 8000 --host {ip}
 ## Change Language espanish
 * config/app.php
